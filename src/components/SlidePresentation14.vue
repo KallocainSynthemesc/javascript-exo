@@ -14,10 +14,10 @@ import MonacoEditor from "@/components/interactive/MonacoEditor.vue";
         code='let array = ["Paris", "Toulouse", "Lyon", "Moissac", "Montauban", "Albi", "Figeac", "Caussade", "M&uuml;nchen", "Stuttgart", "N&uuml;rnberg"];
 
 let i = 0;
-while(i &lt; array.length)
+while(i &gt; array.length)
 {
-	console.log(array[i])
-	i++;
+  console.log(array[i])
+  i++;
 }
 '
         editorIndex="9"

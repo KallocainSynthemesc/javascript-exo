@@ -4,7 +4,7 @@ import MonacoEditor from "@/components/interactive/MonacoEditor.vue";
 <template>
   <div class="slide">
     <div class="heading">
-      Loop + function exercise - Un nombre entier dans l'ordre inverse.
+      Loop + function - Un nombre entier dans l'ordre inverse.
     </div>
     <div class="content">
       <p>

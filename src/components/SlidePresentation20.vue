@@ -10,7 +10,7 @@ import MonacoEditor from "@/components/interactive/MonacoEditor.vue";
       <p>
         Étant donné cinq entiers positifs, trouvez les valeurs minimale et
         maximale qui peuvent être calculées en additionnant exactement quatre
-        des cinq entiers. Entrée : [1,2,3,4,5]
+        des cinq entiers. Entrée : [1,2,3,4,5], Min:10, Max;14
       </p>
       <MonacoEditor
         code="let arr = [1,2,3,4,5]

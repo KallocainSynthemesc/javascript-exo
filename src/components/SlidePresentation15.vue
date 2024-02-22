@@ -14,10 +14,16 @@ import MonacoEditor from "@/components/interactive/MonacoEditor.vue";
         code='let array = ["Paris", "Toulouse", "Lyon", "Moissac", "Montauban", "Albi", "Figeac", "Caussade", "M&uuml;nchen", "Stuttgart", "N&uuml;rnberg"];
 
 let i = 0;
-while(i &lt; array.length/2)
+while(i &lt; array.length)
 {
-	console.log(array[i]);
-	i++;
+  if(i &lt;= array.length/2) //peut-&ecirc;tre d&eacute;placer le contr&ocirc;le if quelque part ?
+  {
+    console.log(array[i]);
+    i++;
+  }
+  else{
+    i++;
+  }
 }
 '
         editorIndex="10"

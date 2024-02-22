@@ -3,9 +3,7 @@ import MonacoEditor from "@/components/interactive/MonacoEditor.vue";
 </script>
 <template>
   <div class="slide">
-    <div class="heading">
-      Loop + function exercise - FizzBuzz (Question d'entretien populaire)
-    </div>
+    <div class="heading">Loop + function exercise - FizzBuzz</div>
     <div class="content">
       <p>
         Écrivez un programme JavaScript qui itère les entiers de 1 à 100. Mais
