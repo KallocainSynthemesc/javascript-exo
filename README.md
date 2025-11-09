@@ -1,4 +1,4 @@
-## REST cours
+## Javascript exercices
 
 To see the the presentation on github pages go to https://kallocainsynthemesc.github.io/javascript-exo/
 
